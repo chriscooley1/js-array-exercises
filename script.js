@@ -147,3 +147,13 @@ const filter3 = () => {
 
     console.log(odds);
 };
+
+function arraySum() {
+    const myNumbers = [1, 2, 3, 4, 5];
+    let total = 0;
+    for (let i = 0; i < myNumbers.length; i++) {
+        total += myNumbers[i];
+    }
+    console.log(total);
+    return total;
+};
